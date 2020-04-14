@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body
+{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  margin: 0%;
+}
+
+#liseret
+{
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  background-color: rgb(255, 196, 0);
+  text-align: center;
+}
+#liseret h2
+{
+  font-weight: bold;
+  color: rgb(255, 196, 0);
+  background-color: rgb(68, 67, 67);
+  font-size: x-large;
+}
+img
+{
+  width: 50%;
+  height: 50%;
+  margin-block-start: 7%;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: rgba(68, 67, 67, 0.158);
+}
+
+#blockContact
+{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10%;
+  color:rgb(68, 67, 67)
+
+}
+.partCoordonnees 
+{
+  padding-bottom: 5%;
+}
+.partCoordonnees p
+{
+  font-size: medium;
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+  padding-block-end: 0%;
+}
+#blockInfo
+{
+  text-align: justify;
+  font-size: medium;
+  padding: 10%;
+  padding-block-start: 0%;
+  color:rgb(68, 67, 67)
+
+}
+#blockHobbies
+{
+  margin-block-start: auto;
+  margin-block-end: 10%;
+}
+#liseret i
+{
+  font-size: x-large;
+  border-radius: 100%;
+  border-style: solid;
+  border-color:rgb(68, 67, 67) ;
+  padding: 5% 5% 5% 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color:rgb(68, 67, 67)
+  
+}
+
+#contenu
+{
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-content: space-around;
+  padding: 3%;
+}
+header h1
+{
+  font-weight: normal;
+  font-size: xx-large;
+
+  margin-block-start: 4%;
+  margin-block-end: 0%;
+
+}
+h1 span
+{
+  color: rgb(255, 196, 0);
+}
+header p
+{
+  font-weight: bold;
+  font-size: larger;
+  margin-block-start: 0%;
+  margin-block-end: 5%;
+  color:rgb(68, 67, 67)
+
+}
+header p span
+{
+  border-bottom: solid rgb(255, 196, 0) 2px; 
+}
+#contenu h2
+{
+  font-weight: bold;
+  border-bottom: 2px solid rgb(255, 196, 0);
+  font-size: x-large;
+  margin-block-start: 5%;
+  margin-block-end: 3%;
+}
+h2 i
+{
+  width: 10%;
+  color: rgb(255, 196, 0);
+}
+ul
+{
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  color:rgb(68, 67, 67)
+
+}
+li
+{
+  display: flex;
+  flex-direction: row;
+}
+.parcoursDate
+{
+  width: 30%;
+  font-size: medium;
+  font-weight: bold;
+}
+.parcoursDate p
+{
+  margin-block-end: 0%;
+}
+.parcoursDate h4
+{
+  margin-block-start: 0%;
+  margin-left: 20%;
+}
+.parcoursText
+{
+  width: 70%;
+}
+
+.parcoursText h3
+{
+  font-weight: bold;
+  font-size: large;
+  margin-block-end: 0%;
+}
+.parcoursText h4
+{
+  font-size: medium;
+  font-weight: normal;
+  margin-block-start: 2%;
+  margin-block-end: 2%;
+}
+.parcoursText p
+{
+  font-size: medium;
+  font-weight: normal;
+  text-align: justify;
+  margin-block-start: 2%;
+
+}
+li i
+{
+  color: rgb(255, 196, 0);
+  margin-right: 15%;
+  margin-left: 0%;
+  font-size: 10px;
+}
+
+#blockReco
+{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-between;
+}
+#blockReco div
+{
+  width: 35%;
+  text-align: start;
+  padding-right: 15%;
+  color:rgb(68, 67, 67)
+
+}
+#blockReco span
+{
+  font-weight: bold;
+}
+
+@media all and (max-width: 768px)
+{
+  body
+  {
+    flex-direction: column;
+  }
+  #contenu
+  {
+    width: 100%;
+    height: 85%;
+  }
+  header
+  {
+    text-align: center;
+  }
+  li
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  li i
+  {
+    color: rgb(255, 196, 0);
+    margin-right: 2%;
+    margin-left: 0%;
+    font-size: 10px;
+  }
+
+  .parcoursDate
+  {
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: auto;
+  }
+  .parcoursDate p
+  {
+    margin-left: 0%;
+  }
+  .parcoursDate h4
+  {
+    margin-left: 0%;
+  }
+  .parcoursText
+  {
+    width: 100%;
+  }
+  .parcoursText p 
+  {
+    text-align: left;
+  }
+  #blockReco
+  {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  #blockReco div
+  {
+    width: 100%;
+    margin-block-start: 5%;
+    margin-block-end: 3%;
+    color:rgb(68, 67, 67)
+  }
+  #blockReco p
+  {
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+  }
+  #liseret
+  {
+    width: 100%;
+    height: 15%;
+  }
+  img
+  {
+    width: 30%;
+    height: 30%;
+  }
+  #liseret h2
+  {
+    font-size: large;
+  }
+  #blockContact p
+  {
+    font-size: small;
+  }
+  #blockContact
+  {
+    padding-block-start: 0%;
+    padding-block-end: 0%;
+  }
+  #blockInfo
+  {
+    font-size: small;
+  }
+  #blockHobbies
+  {
+    margin-top: 0%;
+  }
+  #liseret i
+  {
+  font-size: large;
+  border-radius: 100%;
+  border-style: solid;
+  border-color:rgb(68, 67, 67) ;
+  padding: 3% 3% 3% 3%;
+  margin-left: 7%;
+  margin-right: 7%;
+  color:rgb(68, 67, 67)
+  }
+
+}
