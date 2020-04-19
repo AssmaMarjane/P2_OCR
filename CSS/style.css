@@ -212,82 +212,18 @@ li i
 {
   body
   {
-    flex-direction: column;
-  }
-  #contenu
-  {
-    width: 100%;
-    height: 85%;
-    padding-left: 0%;
-    padding-right: 0%;
-  }
-  header
-  {
-    text-align: center;
-  }
-  li
-  {
     display: flex;
     flex-direction: column;
-  }
-  li i
-  {
-    color: rgb(255, 196, 0);
-    margin-right: 2%;
-    margin-left: 0%;
-    font-size: 10px;
-  }
-
-  .parcoursDate
-  {
-    width: 100%;
-    font-size: medium;
-    font-weight: bold;
-    margin-left: auto;
-  }
-  .parcoursDate p
-  {
-    margin-left: 0%;
-  }
-  .parcoursDate h4
-  {
-    margin-left: 0%;
-  }
-  .parcoursText
-  {
-    width: 100%;
-  }
-  .parcoursText p 
-  {
-    text-align: left;
-  }
-  #blockReco
-  {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-  }
-  #blockReco div
-  {
-    width: 100%;
-    margin-block-start: 5%;
-    margin-block-end: 3%;
-    color:rgb(68, 67, 67)
-  }
-  #blockReco p
-  {
-    margin-block-end: 0%;
-    margin-block-start: 0%;
+    flex-wrap: wrap;
   }
   #liseret
   {
     width: 100%;
-    height: 15%;
   }
   img
   {
-    width: 30%;
-    height: 30%;
+    max-width: 30%;
+    max-height: 30%;
     margin: 0%;
     padding: 0%;
   }
@@ -322,6 +258,95 @@ li i
   margin-left: 7%;
   margin-right: 7%;
   color:rgb(68, 67, 67)
+  }
+  #contenu
+  {
+    width: 100%;
+    height: 85%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  header
+  {
+    text-align: center;
+  }
+  header h1
+  {
+    font-size: large;
+  }
+  header p 
+  {
+    font-size: medium;
+  }
+  #contenu h2
+  {
+    font-size: large;
+  }
+  ul  
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  li i
+  {
+    color: rgb(255, 196, 0);
+    margin-right: 2%;
+    margin-left: 0%;
+    font-size: 5px;
+  }
+
+  .parcoursDate
+  {
+    width: 100%;
+    font-size: small;
+    font-weight: bold;
+    margin-left: auto;
+  }
+  .parcoursDate p
+  {
+    margin-left: 0%;
+  }
+  .parcoursDate h4
+  {
+    margin-left: 0%;
+    font-size: small;
+  }
+  .parcoursText
+  {
+    width: 100%;
+  }
+  .parcoursText h3
+  {
+    font-size: medium;
+  }
+  .parcoursText h4+p
+  {
+    font-size: small;
+    text-align: left;
+  }
+  #blockReco
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  #blockReco div
+  {
+    width: 100%;
+    margin-block-start: 5%;
+    margin-block-end: 3%;
+    color:rgb(68, 67, 67)
+  }
+  #blockReco p
+  {
+    margin-block-end: 0%;
+    margin-block-start: 0%;
   }
 
 }
