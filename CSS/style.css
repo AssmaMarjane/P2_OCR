@@ -198,6 +198,7 @@ li i
 #blockReco div
 {
   width: 35%;
+  font-size: medium;
   text-align: start;
   padding-right: 15%;
   color:rgb(68, 67, 67)
@@ -339,6 +340,7 @@ li i
   #blockReco div
   {
     width: 100%;
+    font-size: small;
     margin-block-start: 5%;
     margin-block-end: 3%;
     color:rgb(68, 67, 67)
