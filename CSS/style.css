@@ -336,7 +336,6 @@ li i
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
-    padding-right: 0%;
   }
   #blockReco div
   {
@@ -344,7 +343,9 @@ li i
     font-size: small;
     margin-block-start: 5%;
     margin-block-end: 3%;
+    padding: 0%;
     color:rgb(68, 67, 67)
+
   }
   #blockReco p
   {
