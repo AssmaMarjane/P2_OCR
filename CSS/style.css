@@ -336,6 +336,7 @@ li i
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
+    padding-right: 0%;
   }
   #blockReco div
   {
