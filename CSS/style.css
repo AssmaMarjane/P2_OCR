@@ -8,7 +8,7 @@ body
   margin: 0%;
 }
 
-#liseret
+aside
 {
   display: flex;
   width: 30%;
@@ -16,7 +16,7 @@ body
   background-color: rgb(255, 196, 0);
   text-align: center;
 }
-#liseret h2
+aside h2
 {
   font-weight: bold;
   color: rgb(255, 196, 0);
@@ -67,7 +67,7 @@ img
   margin-block-start: auto;
   margin-block-end: 10%;
 }
-#liseret i
+aside i
 {
   font-size: x-large;
   border-radius: 100%;
@@ -80,7 +80,7 @@ img
   
 }
 
-#contenu
+main
 {
   display: flex;
   width: 70%;
@@ -113,7 +113,7 @@ header p span
 {
   border-bottom: solid rgb(255, 196, 0) 2px; 
 }
-#contenu h2
+main h2
 {
   font-weight: bold;
   border-bottom: 2px solid rgb(255, 196, 0);
@@ -217,7 +217,7 @@ li i
     flex-direction: column;
     flex-wrap: wrap;
   }
-  #liseret
+  aside
   {
     width: 100%;
   }
@@ -228,7 +228,7 @@ li i
     margin: 0%;
     padding: 0%;
   }
-  #liseret h2
+  aside h2
   {
     font-size: large;
   }
@@ -249,7 +249,7 @@ li i
   {
     margin-top: 0%;
   }
-  #liseret i
+  aside i
   {
   font-size: large;
   border-radius: 100%;
@@ -260,7 +260,7 @@ li i
   margin-right: 7%;
   color:rgb(68, 67, 67)
   }
-  #contenu
+  main
   {
     width: 100%;
     height: 85%;
@@ -279,7 +279,7 @@ li i
   {
     font-size: medium;
   }
-  #contenu h2
+  main h2
   {
     font-size: large;
   }
