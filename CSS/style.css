@@ -209,7 +209,7 @@ li i
   font-weight: bold;
 }
 
-@media all and (max-width: 768px)
+@media all and (min-width: 320px) and (max-width: 768px)
 {
   body
   {
@@ -220,6 +220,7 @@ li i
   aside
   {
     width: 100%;
+    background-color: lightblue;
   }
   img
   {
@@ -231,6 +232,182 @@ li i
   aside h2
   {
     font-size: large;
+    color: aliceblue;
+  }
+  #blockContact p
+  {
+    font-size: medium;
+  }
+  #blockContact
+  {
+    padding-block-start: 0%;
+    padding-block-end: 0%;
+    text-align: center;
+  }
+  #partCoordonnees
+  {
+    padding-bottom: 3%;
+  }
+  #blockInfo
+  {
+    font-size: medium;
+  }
+  #blockHobbies
+  {
+    margin-top: 0%;
+  }
+  aside i
+  {
+  font-size: large;
+  border-radius: 100%;
+  border-style: solid;
+  border-color:rgb(68, 67, 67) ;
+  padding: 3% 3% 3% 3%;
+  margin-left: 7%;
+  margin-right: 7%;
+  color:rgb(68, 67, 67)
+  }
+  main
+  {
+    width: 100%;
+    height: 85%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  header
+  {
+    text-align: center;
+  }
+  header h1
+  {
+    font-size: large;
+  }
+  header h1 span
+  {
+    color: lightblue;
+
+  }
+  header p span
+{
+  border-bottom: solid lightblue 2px; 
+}
+
+  header p 
+  {
+    font-size: medium;
+  }
+  main h2
+  {
+    font-size: large;
+    border-bottom: 2px solid lightblue;
+
+  }
+  h2 i 
+  {
+    margin-left: 2%;
+    color: lightblue
+  
+  }
+  ul  
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  li i
+  {
+    color: lightblue;
+    margin-right: 2%;
+    margin-left: 0%;
+    font-size: 5px;
+  }
+
+  .parcoursDate
+  {
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    margin-block-end: 0%;
+  }
+  .parcoursDate p
+  {
+    margin-left: 3%;
+    margin-block-start: 0%;
+  }
+  .parcoursDate h4
+  {
+    margin-left: 6%;
+    margin-block-end: 0%;
+    font-size: medium;
+  }
+  .parcoursText
+  {
+    width: 97%;
+    margin-left: 3%;
+    margin-block-end: 7%;
+  }
+  .parcoursText h3
+  {
+    font-size: medium;
+  }
+  .parcoursText h4+p
+  {
+    font-size: medium;
+    text-align: left;
+  }
+  #blockReco
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 3%;
+  }
+  #blockReco div
+  {
+    width: 100%;
+    font-size: medium;
+    margin-block-start: 5%;
+    margin-block-end: 3%;
+    padding: 0%;
+    color:rgb(68, 67, 67)
+
+  }
+  #blockReco p
+  {
+    margin-block-end: 0%;
+    margin-block-start: 0%;
+  }
+
+}
+@media all and (max-width: 320px)
+{
+  body
+  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  aside
+  {
+    width: 100%;
+    background-color: lightblue;
+  }
+  img
+  {
+    max-width: 30%;
+    max-height: 30%;
+    margin: 0%;
+    padding: 0%;
+  }
+  aside h2
+  {
+    font-size: large;
+    color: aliceblue;
   }
   #blockContact p
   {
@@ -240,7 +417,13 @@ li i
   {
     padding-block-start: 0%;
     padding-block-end: 0%;
+    text-align: center;
   }
+  #partCoordonnees
+  {
+    padding-bottom: 2%;
+  }
+
   #blockInfo
   {
     font-size: small;
@@ -275,6 +458,15 @@ li i
   {
     font-size: large;
   }
+  header h1 span
+  {
+    color: lightblue;
+  }
+  header p span
+{
+  border-bottom: solid lightblue 2px; 
+}
+
   header p 
   {
     font-size: medium;
@@ -282,7 +474,14 @@ li i
   main h2
   {
     font-size: large;
+    border-bottom: 2px solid lightblue;
   }
+  h2 i 
+  {
+    margin-left: 2%;
+    color: lightblue
+  }
+
   ul  
   {
     display: flex;
@@ -295,7 +494,7 @@ li i
   }
   li i
   {
-    color: rgb(255, 196, 0);
+    color: lightblue;
     margin-right: 2%;
     margin-left: 0%;
     font-size: 5px;
@@ -306,20 +505,24 @@ li i
     width: 100%;
     font-size: small;
     font-weight: bold;
-    margin-left: auto;
+    margin-block-end: 0%;
   }
   .parcoursDate p
   {
-    margin-left: 0%;
+    margin-left: 3%;
+    margin-block-start: 0%;
   }
   .parcoursDate h4
   {
-    margin-left: 0%;
+    margin-left: 6%;
+    margin-block-end: 0%;
     font-size: small;
   }
   .parcoursText
   {
-    width: 100%;
+    width: 97%;
+    margin-left: 3%;
+    margin-block-end: 5%;
   }
   .parcoursText h3
   {
@@ -336,6 +539,7 @@ li i
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
+    margin-left: 3%;
   }
   #blockReco div
   {
