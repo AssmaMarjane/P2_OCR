@@ -227,12 +227,13 @@ li i
     width: 100%;
     background-color: lightblue;
   }
-  #photo img
+  #photo 
   {
     display: none;
   }
   aside h2
   {
+    margin-top: 2%;
     font-size: large;
     color: aliceblue;
   }
@@ -410,10 +411,11 @@ li i
 
   aside h2
   {
+    margin-top: 2%;
     font-size: large;
     color: aliceblue;
   }
-  #photo img
+  #photo 
   {
     display: none;
   }
