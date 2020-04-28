@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+:root
+{
+  --principalcolor : lightblue;
+}
 body
 {
   display: flex;
@@ -13,21 +16,20 @@ aside
   display: flex;
   width: 30%;
   flex-direction: column;
-  background-color: rgb(255, 196, 0);
+  background-color: var(--principalcolor);
   text-align: center;
 }
 aside h2
 {
   font-weight: bold;
-  color: rgb(255, 196, 0);
+  color: var(--principalcolor);
   background-color: rgb(68, 67, 67);
   font-size: x-large;
 }
-img
+#photo img
 {
   width: 50%;
   height: 50%;
-  margin-block-start: 7%;
   border-radius: 100%;
   border-style: solid;
   border-color: rgba(68, 67, 67, 0.158);
@@ -87,6 +89,10 @@ main
   flex-direction: column;
   padding: 3%;
 }
+#photoResponsive img
+{
+  display: none;
+}
 header h1
 {
   font-weight: normal;
@@ -98,7 +104,7 @@ header h1
 }
 h1 span
 {
-  color: rgb(255, 196, 0);
+  color: var(--principalcolor);
 }
 header p
 {
@@ -111,12 +117,12 @@ header p
 }
 header p span
 {
-  border-bottom: solid rgb(255, 196, 0) 2px; 
+  border-bottom: solid var(--principalcolor) 2px; 
 }
 main h2
 {
   font-weight: bold;
-  border-bottom: 2px solid rgb(255, 196, 0);
+  border-bottom: 2px solid var(--principalcolor);
   font-size: x-large;
   margin-block-start: 5%;
   margin-block-end: 3%;
@@ -124,7 +130,7 @@ main h2
 h2 i
 {
   width: 10%;
-  color: rgb(255, 196, 0);
+  color: var(--principalcolor);
 }
 ul
 {
@@ -182,7 +188,7 @@ li
 }
 li i
 {
-  color: rgb(255, 196, 0);
+  color: var(--principalcolor);
   margin-right: 15%;
   margin-left: 0%;
   font-size: 10px;
@@ -213,8 +219,7 @@ li i
 {
   body
   {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
   }
   aside
@@ -222,12 +227,9 @@ li i
     width: 100%;
     background-color: lightblue;
   }
-  img
+  #photo img
   {
-    max-width: 30%;
-    max-height: 30%;
-    margin: 0%;
-    padding: 0%;
+    display: none;
   }
   aside h2
   {
@@ -273,6 +275,14 @@ li i
     height: 85%;
     padding-left: 0%;
     padding-right: 0%;
+  }
+  #photoResponsive img
+  {
+    display: block;
+    max-width: 30%;
+    max-height: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
   }
   header
   {
@@ -389,7 +399,7 @@ li i
   body
   {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
   }
   aside
@@ -397,18 +407,17 @@ li i
     width: 100%;
     background-color: lightblue;
   }
-  img
-  {
-    max-width: 30%;
-    max-height: 30%;
-    margin: 0%;
-    padding: 0%;
-  }
+
   aside h2
   {
     font-size: large;
     color: aliceblue;
   }
+  #photo img
+  {
+    display: none;
+  }
+
   #blockContact p
   {
     font-size: small;
@@ -450,6 +459,16 @@ li i
     padding-left: 0%;
     padding-right: 0%;
   }
+
+  #photoResponsive img
+  {
+    display: block;
+    max-width: 30%;
+    max-height: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+
   header
   {
     text-align: center;
