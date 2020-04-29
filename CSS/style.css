@@ -222,7 +222,7 @@ li i
   }
   aside h2
   {
-    margin-top: 2%;
+    margin-top: 0;
     font-size: large;
   }
   #blockContact
@@ -267,11 +267,11 @@ li i
   }
   header h1
   {
-    font-size: large;
+    font-size: x-large;
   }
   header p 
   {
-    font-size: medium;
+    font-size: large;
   }
   main h2
   {
