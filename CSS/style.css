@@ -311,8 +311,9 @@ li i
   }
   .parcoursText
   {
-    width: 94%;
+    width: 91%;
     margin-left: 3%;
+    margin-right: 3%;
     padding-right: 3%;
     margin-block-end: 7%;
   }
@@ -462,8 +463,9 @@ li i
   }
   .parcoursText
   {
-    width: 94%;
+    width: 91%;
     margin-left: 3%;
+    margin-right: 3%;
     padding-right: 3%;
     margin-block-end: 5%;
   }
