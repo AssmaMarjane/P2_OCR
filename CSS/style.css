@@ -311,8 +311,9 @@ li i
   }
   .parcoursText
   {
-    width: 97%;
+    width: 94%;
     margin-left: 3%;
+    padding-right: 3%;
     margin-block-end: 7%;
   }
   .parcoursText h3
@@ -369,9 +370,12 @@ li i
     padding-block-end:0;
     text-align: center;
   }
-  #partCoordonnees
+  .partCoordonnees
   {
     padding-bottom: 2%;
+  }
+  .partCoordonnees p  
+  {
     font-size: small;
   }
   #blockInfo
@@ -458,8 +462,9 @@ li i
   }
   .parcoursText
   {
-    width: 97%;
+    width: 94%;
     margin-left: 3%;
+    padding-right: 3%;
     margin-block-end: 5%;
   }
   .parcoursText h3
