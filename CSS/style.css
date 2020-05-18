@@ -54,9 +54,10 @@ aside h2
   margin-block-end:0;
   padding-block-end:0;
 }
-a
+.partCoordonnees a
 {
   text-decoration: none;
+  color: rgb(68, 67, 67);
 }
 #blockInfo
 {
